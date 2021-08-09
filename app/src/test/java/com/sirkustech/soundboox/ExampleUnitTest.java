@@ -1,4 +1,4 @@
-package com.softtech.soundboox;
+package com.sirkustech.soundboox;
 
 import org.junit.Test;
 

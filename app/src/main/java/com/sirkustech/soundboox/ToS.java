@@ -1,14 +1,14 @@
-package com.softtech.soundboox;
+package com.sirkustech.soundboox;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Account extends AppCompatActivity {
+public class ToS extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_account);
+        setContentView(R.layout.activity_to_s);
     }
 }

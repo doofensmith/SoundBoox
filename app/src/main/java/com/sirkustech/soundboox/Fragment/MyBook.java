@@ -1,4 +1,4 @@
-package com.softtech.soundboox.Fragment;
+package com.sirkustech.soundboox.Fragment;
 
 import android.os.Bundle;
 
@@ -8,24 +8,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.softtech.soundboox.R;
+import com.sirkustech.soundboox.R;
 
-public class Explore extends Fragment {
+public class MyBook extends Fragment {
 
-    public Explore() {
+    public MyBook() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View rootView = inflater.inflate(R.layout.fragment_explore, container, false);
-
-
-
-
-        return rootView;
+        return inflater.inflate(R.layout.fragment_my_book, container, false);
     }
 }

@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.softtech.soundboox"
+        applicationId "com.sirkustech.soundboox"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
